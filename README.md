@@ -11,7 +11,7 @@ This repository contains:
 
 This repository does **not** include raw VSAC content. To reconstruct the dataset artifacts used for training, you must download the value set content locally with a valid UMLS API key.
 
-Model weights are released separately on Hugging Face.
+Model weights will be released separately on Hugging Face.
 
 ## Setup
 
