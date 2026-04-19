@@ -2,7 +2,7 @@
 
 Companion codebase for the paper **"Retrieve, Then Classify: Corpus-Grounded Automation of Clinical Value Set Authoring"**.
 
-Paper link:
+Paper link: [https://arxiv.org/abs/2604.14616](https://arxiv.org/abs/2604.14616)
 
 This repository contains:
 
@@ -11,7 +11,6 @@ This repository contains:
 
 This repository does **not** include raw VSAC content. To reconstruct the dataset artifacts used for training, you must download the value set content locally with a valid UMLS API key.
 
-Model weights will be released separately on Hugging Face.
 
 ## Setup
 
@@ -137,6 +136,11 @@ Optional threshold tuning on validation:
 ```bash
 python model_training/train_cross_encoder.py --tune-threshold
 ```
+
+## Model weights 
+Model weights are released on HugginFace
+
+Cross-Encoder: [https://huggingface.co/sumitmukherjee2/RASC_cross_encoder](https://huggingface.co/sumitmukherjee2/RASC_cross_encoder)
 
 ## Notes
 
