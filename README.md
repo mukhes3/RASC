@@ -147,3 +147,31 @@ Cross-Encoder: [https://huggingface.co/sumitmukherjee2/RASC_cross_encoder](https
 - The released manifest is lightweight and contains no VSAC content.
 - Raw value set content must be downloaded locally by each user with their own UMLS credentials.
 - The training scripts expect reconstructed dataset artifacts under `dataset/`.
+
+## Citation 
+If you utilize this repo in your work, consider citing the following papers: 
+
+```bibtex
+
+@misc{mukherjee2026retrieveclassifycorpusgroundedautomation,
+      title={Retrieve, Then Classify: Corpus-Grounded Automation of Clinical Value Set Authoring}, 
+      author={Sumit Mukherjee and Juan Shu and Nairwita Mazumder and Tate Kernell and Celena Wheeler and Shannon Hastings and Chris Sidey-Gibbons},
+      year={2026},
+      eprint={2604.14616},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.14616}, 
+}
+
+
+@misc{mukherjee2026rascretrievalconstrainedllmadjudication,
+      title={RASC+: Retrieval-Constrained LLM Adjudication for Clinical Value Set Authoring}, 
+      author={Sumit Mukherjee},
+      year={2026},
+      eprint={2606.23992},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.23992}, 
+}
+
+```
